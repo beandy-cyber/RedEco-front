@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedEco | Cadastro</title>
+    <link rel="icon" href="./assets/img/menu/logo-small.png">
+    <script src="https://kit.fontawesome.com/67568c9f06.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/cadastro.css">
+
+    <script src="assets/js/cadastro.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+        body {
+            background-color: #e0e0e0; /* Fundo cinza um pouco mais escuro */
+            color: #222; /* Texto em cinza escuro */
+        }
+
+        .headerHome {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: #e0e0e0; 
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #219665; /* Verde mais escuro */
+            font-family: 'Poppins', sans-serif; /* Certifique-se de que a fonte Poppins está carregada */
+            text-align: center;
+            margin: 20px 0; /* Espaço em volta do logo */
+        }
+
+        .containerCadastro {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+            padding: 20px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+        }
+
+        .containerCadastro_field {
+            display: flex;
+            flex-direction: column;
+            color: #155724; /* Verde escuro */
+            margin: 0.5rem;
+        }
+
+        input, select {
+            background-color: #fff;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: inset 2px 2px 5px #bbb; /* Sombra mais escura */
+            border: none;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            color: #222; /* Texto do input em cinza escuro */
+            width: 20rem;
+        }
+
+        select {
+            width: 21rem;
+        }
+
+        input:focus, select:focus {
+            box-shadow: 0 0 0 0;
+            outline: 0;
+        }
+
+        .containerCadastro_btnCadastro button {
+            background-color: #219665; /* Fundo do botão em verde mais escuro */
+            border: none;
+            border-radius: 10px;
+            padding: 10px 20px;
+            color: #fff;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;  
+            font-size: 1rem;  
+            width: 200px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            margin-top: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .containerCadastro_btnCadastro button:hover {
+            background-color: #186949; /* Cor do botão ao passar o mouse, mais escuro */
+        }
+
+        .containerCadastro_linkLogin {
+            color: #186949; /* Texto do link em verde mais escuro */
+            font-weight: 300;
+            text-decoration: underline;
+            margin-top: 18px;
+        }
+
+        .containerCadastro_linkLogin:hover {
+            color: #219665; /* Cor do link ao passar o mouse */
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="headerHome">
+        <h1 class="logo">RedEco</h1>
+    </header>
+
+    <!-- CONTAINER CADASTRO -->
+    <div class="containerCadastro">
+        <div class="containerCadastro_field">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+        <div class="containerCadastro_field">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        </div>
+        <div class="containerCadastro_field">
+            <label for="senha">Crie uma senha:</label>
+            <input type="password" id="senha" name="password" minlength="8" maxlength="10" placeholder="Digite sua senha" required>
+        </div>
+        <a class="containerCadastro_btnCadastro" href="./inicio.html">
+            <button id="btnCadastrar" type="submit" value="cadastre" onclick="efetuaCadastro()">Cadastrar</button>
+        </a>
+        <a class="containerCadastro_linkLogin" href="./index.html" id="possui-cadastro">Já tem um cadastro? Faça o login</a>
+    </div>
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #1E774C;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headerHome {
+    height: 25vh;
+    text-align: center;
+    background-image: url(../img/background/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.headerHome_logo {
+    width: 75%;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    background-color: #98FFAE;
+    border-radius: 10px;
+    border: none;
+    border: 3px solid #6bdb84;
+    box-shadow: 0px 0px 8px #0c3823;
+    padding: 5px 10px;
+    min-width: 210px;
+}
+
+#last-item {
+    border: none;
+}
+
+.dropdown-toggle {
+    color: transparent;
+    margin-left: 6px;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:active {
+    color: transparent;
+}
+
+#dropdownMenuLink img {
+    width: 35px;
+}
+
+.dropdown-item {
+    color: #1E774C;
+    font-weight: 500;
+    padding: 0px;
+    font-size: 0.9rem;
+}
+
+.dropdown-item:hover {
+    color: #196842;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.divMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: #6bdb84 solid 1px;
+    padding: 10px 5px;
+}
+
+.divMenu img {
+    width: 8%;
+    margin-right: 10px;
+}

@@ -1,0 +1,579 @@
+img {
+    width: 25px;
+}
+
+.headerAcoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 60px 5px;
+}
+
+.headerAcoes_logo img,
+.headerAcoes_usuario img {
+    width: 35px;
+}
+
+.containerMain {
+    padding: 0% 10% 1%;
+}
+
+.containerMainPremios {
+    padding: 0% 20% 0%;
+}
+
+.heading,
+.headingPremios {
+    text-align: start;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.headingPremios {
+    margin: 10px 0 20px;
+}
+
+/* CONTAINER */
+
+.containerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.containerPerfil,
+.containerFuncao, .containerColab {
+    border: 1px solid #98FFAE;
+    border-radius: 20px;
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #02572E;
+}
+
+.containerPerfilTitle,
+.containerFuncaoTitle, .containerPremiacaoTitle {
+    background-color: #98FFAE;
+    color: #1E774C;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    padding: 10px 50px;
+}
+
+.containerPerfilTitle h2,
+.containerFuncaoTitle h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.containerPremiacaoTitle h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.containerPerfilText,
+.containerFuncaoText {
+    display: flex;
+    padding: 5px 50px;
+}
+
+.containerHistorico {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 50px;
+}
+
+.btnEditar {
+    padding: 0px 50px 20px;
+}
+
+.btnEditar button {
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 0.85rem;
+    padding: 7px 10px;
+    border-radius: 20px;
+}
+
+.btnEditar button:hover {
+    background-color: #98FFAE;
+    color: #1E774C;
+    font-weight: 600;
+    border: 2px solid #98FFAE;
+}
+
+.containerPerfilDesc {
+    width: 70%;
+}
+
+.linha {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.linha h3 {
+    width: 30%;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.linha p {
+    font-size: 0.9rem;
+    width: 50%;
+}
+
+.containerPerfilFoto {
+    margin: 15px 0;
+}
+
+.containerPerfilFoto h3 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.containerPerfilFoto img {
+    width: 50%;
+}
+
+.containerFuncaoDesc,
+.containerHistoricoDesc, .containerPremiacao {
+    margin: 10px 0px;
+    line-height: 18px;
+}
+
+.containerPremiacao {
+    padding: 5px 50px;
+}
+
+.premiacaoDiv {
+    border-bottom: 1px solid #98FFAE;
+    padding-bottom: 20px;
+}
+
+.colocacao {
+    display: flex;
+    margin: 5px 0 10px;
+}
+
+.colocacao h3 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.colocacao img {
+    width: 15px;
+    margin-left: 15px;
+}
+
+.titlePermissoes,
+.titleParcerias {
+    margin: 8px 0 15px;
+}
+
+.permissoes,
+.historico, .historicoPremios {
+    display: flex;
+    margin: 7px 0;
+    font-size: 0.9rem;
+    align-items: center;
+}
+
+.historico {
+    font-size: 0.8rem;
+    margin-left: 30px;
+}
+
+.historicoPremios {
+    font-size: 0.8rem;
+    margin: 0px;
+}
+
+.permissoes img {
+    width: 5%;
+    margin-right: 10px;
+}
+
+.historico img {
+    width: 3%;
+    margin-right: 8px;
+}
+
+.historicoPremios img {
+    width: 3%;
+    margin-right: 8px;
+}
+
+.btnSair button {
+    border: 2px solid #a32c2c;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 0.85rem;
+    padding: 7px 10px;
+    border-radius: 20px;
+}
+
+.btnSair button:hover {
+    background-color: #a32c2c;
+    color: #ffffff;
+    font-size: 0.85rem;
+    padding: 7px 10px;
+    border-radius: 20px;
+}
+
+.containerParcerias {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divParcerias {
+    display: flex;
+}
+
+.parcerias {
+    text-align: center;
+    margin: 10px 10%;
+}
+
+.parcerias img {
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+#logoiFood {
+    width: 100%;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#underline:hover {
+    cursor: pointer;
+}
+
+.divPremios {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.premioSubtitle h2 {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.blocoPremio {
+    color: #1E774C;
+    display: flex;
+    flex-direction: column;
+    background-color: #98FFAE;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 20px;
+    width: 30%;
+}
+
+#gympass {
+    width: 35%;
+}
+
+#vr {
+    width: 25%;
+}
+
+#livup {
+    width: 20%;
+}
+
+.blocoPremio p {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin: 12px 0;
+}
+
+.blocoPremio button {
+    background-color: #1E774C;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins';
+    padding: 5px 10px;
+    box-shadow: 1px 1px 5px #000000;
+}
+
+.blocoPremio button:hover {
+    box-shadow: 3px 3px 5px #0d3d26;
+    cursor: pointer;
+}
+
+.anoHistorico {
+    background-color: #98FFAE;
+    color: #1E774C;
+    font-weight: 600;
+    width: 80px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.mesHistorico {
+    font-size: 0.9rem;
+    margin-left: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.containerDivColab {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerColab {
+    width: 55%;
+    margin-bottom: 0px;
+}
+
+.containerDivRanking {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containerRanking {
+    background-color: #98FFAE;
+    color: #1E774C;
+    padding: 8px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerAdicao {
+    display: flex;
+    background-color: #98FFAE;
+    color: #1E774C;
+    padding: 10px 20px;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.containerAdicao p {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.containerAdicao img {
+    width: 15px;
+}
+
+.positionRanking {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: #1e774c44 solid 1px;
+}
+
+.iconRanking {
+    width: 30px;
+    margin-right: 8px;
+}
+
+.medalRanking {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.editarRemover {
+    width: 16px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.nameRanking {
+    text-align: left;
+    font-weight: 600;
+    width: 60%;
+    cursor: pointer;
+}
+
+.nameRanking h2 {
+    font-size: 0.8rem;
+}
+
+.nameRanking p {
+    font-size: 0.7rem;
+    margin-top: 5px;
+}
+
+#positionUser {
+    font-weight: 800;
+}
+
+#ultimaPosition {
+    border: none;
+}
+
+.verMais {
+    font-size: 0.9rem;
+    width: 100%;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: end;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+#last-colocado {
+    margin-bottom: 20px;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 800px) {
+    .containerMainPremios {
+        padding: 0% 10% 1%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .containerMain {
+        padding: 0% 10% 5%;
+    }
+
+    img {
+        width: 22px;
+    }
+
+    .headerAcoes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 20px;
+    }
+
+    .headerAcoes_logo img,
+    .headerAcoes_usuario img {
+        width: 35px;
+    }
+
+    .containerPerfilText,
+    .containerFuncaoText,
+    .containerHistorico, .containerPremiacao {
+        padding: 5px 30px;
+    }
+
+    .containerPerfilTitle,
+    .containerFuncaoTitle, .containerPremiacaoTitle {
+        padding: 10px 30px;
+    }
+
+    .containerPerfilText {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerPerfilFoto img {
+        margin-top: 5px;
+        width: 15%;
+    }
+
+    .btnEditar {
+        padding: 0px 30px 20px;
+    }
+
+    .linha h3 {
+        width: 50%;
+    }
+
+    .linha p {
+        width: 50%;
+    }
+
+    .divParcerias {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titleParcerias {
+        width: 70%;
+    }
+
+    .parcerias {
+        width: 50%;
+    }
+
+    .containerPerfilDesc {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 700px) { 
+    .containerDivColab {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerDivRanking, .containerColab {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 500px) {
+    img {
+        width: 20px;
+    }
+
+    .divPremios {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3%;
+    }
+
+    .blocoPremio {
+        padding: 15px 10px;
+        border-radius: 20px;
+        margin: 3% 0;
+        width: 100%;
+    }
+
+    #gympass {
+        width: 20%;
+    }
+
+    #vr {
+        width: 15%;
+    }
+
+    #livup {
+        width: 10%;
+    }
+
+    .blocoPremio p {
+        font-size: 0.75rem;
+        font-weight: 600;
+        margin: 12px 0;
+        width: 100%;
+    }
+
+}

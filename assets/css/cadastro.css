@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+.containerCadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.containerCadastro_field {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    margin: 0.5rem;
+}
+
+input, select {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0.2rem 0;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 5px #00000042;
+    color: grey;
+    width: 20rem;
+}
+
+select {
+    width: 21rem;
+}
+
+input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.containerCadastro_btnCadastro button {
+    background-color: #98FFAE;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 0px;
+    color: #1E774C;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;  
+    font-size: 1rem;  
+    width: 200px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.containerCadastro_linkLogin {
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: underline;
+    margin-top: 18px;
+}

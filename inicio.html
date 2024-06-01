@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedEco | Início</title>
+
+    <link rel="stylesheet" href="./assets/css/pontuacao.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <style>
+
+        /* Ajustes para o header */
+        body {
+            background-color: white; /* Cor de fundo do corpo */
+        }
+
+        .headerPontuacao {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #28a745; /* Cor de fundo do header */
+            color: white; /* Cor do texto no header */
+            border-bottom: 3px solid #218838; /* Cor da borda inferior */
+        }
+
+        .headerPontuacao_logo {
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: #ffffff; /* Cor do texto no header */
+        }
+
+        .headerPontuacao_opcoesMenu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .headerPontuacao_opcoesMenu_div {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            text-decoration: none;
+            color: white; /* Cor do texto no header */
+        }
+
+        .dropdown-menu .divMenu {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #28a745; /* Cor verde para os ícones e texto */
+            text-decoration: none;
+        }
+
+        .containerDiv {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #e9ecef; /* Fundo cinza claro para o container */
+            border-radius: 5px; /* Bordas arredondadas */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+
+        .containerRanking,
+        .containerPontos {
+            flex: 1;
+            margin-right: 20px; /* Espaçamento entre os containers */
+        }
+
+        .titleRanking,
+        .titlePontos {
+            margin-bottom: 20px;
+            color: #218838; /* Cor verde escuro para títulos */
+        }
+
+        .positionRanking,
+        .linhaPontos {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: white; /* Fundo branco para itens */
+            border-radius: 5px; /* Bordas arredondadas */
+        }
+
+        .positionRanking img,
+        .linhaLeft img {
+            width: 50px; /* Tamanho dos ícones */
+        }
+
+        .medalRanking {
+            width: 30px; /* Tamanho das medalhas */
+        }
+
+        .pontos {
+            margin-left: 10px;
+            font-weight: bold;
+        }
+
+        .acao {
+            margin-bottom: 0;
+        }
+
+        .quantPontos {
+            margin-top: auto;
+        }
+
+        #meusPontos {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+
+    <!-- HEADER -->
+    <header class="headerPontuacao">
+        <div class="headerPontuacao_logo">
+            <a href="./inicio.html">RedEco</a>
+        </div>
+        <div class="headerPontuacao_opcoesMenu">
+            <a href="./inicio.html" class="text-success">
+                <div class="headerPontuacao_opcoesMenu_div" id="inicio">
+                    <img src="./assets/img/menu/iconInicio.svg" alt="" class="green-icon">
+                    <p>Início</p>
+                </div>
+            </a>
+            <a href="./pontuacao.html" class="text-success">
+                <div class="headerPontuacao_opcoesMenu_div" id="pontuacao">
+                    <img src="./assets/img/menu/iconPontuacao.svg" alt="" class="green-icon">
+                    <p>Pontuação</p>
+                </div>
+            </a>
+        </div>
+        <div class="dropdown dropleft">
+            <a class="dropdown-toggle text-success" href="#" id="dropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img src="./assets/img/menu/iconUser.svg" alt="" class="green-icon">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <div class="divMenu">
+                    <img src="./assets/img/icons/iconMenuInicio.svg" alt="" class="green-icon">
+                    <a class="dropdown-item" id="first-item" href="./inicio.html">Início</a>
+                </div>
+
+                <div class="divMenu" id="last-item">
+                    <img src="./assets/img/icons/iconMenuSair.svg" alt="" class="green-icon">
+                    <a class="dropdown-item" href="./index.html">Sair</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--INSERÇÃO DE CONTEÚDO-->
+
+    <div class="post create">
+        <div class="post-top">
+          <input type="text" placeholder="No que você está pensando, Marcos?" />
+        </div>
+      
+        <div class="post-bottom">
+          <div class="action">
+            <i class="fa fa-video"></i>
+            <span>Video ao vivo</span>
+          </div>
+          <div class="action">
+            <i class="fa fa-image"></i>
+            <span>Foto/video</span>
+          </div>
+          <div class="action">
+            <i class="fa fa-smile"></i>
+            <span>Sentimento/atividade</span>
+          </div>
+        </div>
+      </div>
+      
+            
+    <!-- HEADING -->
+    <div class="container mt-4">
+        <h2 class="text-success">Últimas Ações Ambientais</h2>
+    </div>
+
+    <!-- POSTS -->
+    <div class="container mt-4">
+        <!-- Exemplo de Post -->
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">🌱 Plantei árvores no parque local</h5>
+                <p class="card-text">Hoje, contribuí para o reflorestamento da minha comunidade plantando novas árvores no parque. Um pequeno gesto para um ambiente mais verde e saudável!</p>
+                <p class="card-text"><small class="text-muted">Postado por João Silva - 1 hora atrás</small></p>
+                <a href="#" class="btn btn-success">Curtir</a>
+                <a href="#" class="btn btn-outline-success">Comentar</a>
+            </div>
+        </div>
+
+        <!-- Exemplo de Post -->
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">♻️ Reciclei todo o lixo da semana</h5>
+                <p class="card-text">Separei corretamente o lixo da minha casa e o entreguei para reciclagem. Pequenos gestos que fazem a diferença!</p>
+                <p class="card-text"><small class="text-muted">Postado por Ana Oliveira - 3 horas atrás</small></p>
+                <a href="#" class="btn btn-success">Curtir</a>
+                <a href="#" class="btn btn-outline-success">Comentar</a>
+            </div>
+        </div>
+
+        <!-- Mais posts podem ser adicionados aqui -->
+    </div>
+
+    <!-- Bootstrap JS e PopUp JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
